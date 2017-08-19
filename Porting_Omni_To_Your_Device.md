@@ -32,6 +32,7 @@ That's it. If you did everything correctly, then you should have a working build
 ### CAF Devices
 #### Android 7.0
 **Basic QCOM Support**
+
 To enable basic QCOM hardware support, the following must be added to your device's `BoardConfig.mk`:
 ```
 BOARD_USES_QCOM_HARDWARE := true
@@ -43,6 +44,7 @@ TARGET_USES_QCOM_BSP := true
 ```
 
 **Audio/Display/Media HAL**
+
 *hardware/qcom/[audio/display/media]* are separated on a per-platform basis. You must declare the HAL variant for your platform in your device's `BoardConfig.mk` via:
 
 ```
@@ -50,6 +52,7 @@ TARGET_QCOM_[AUDIO/DISPLAY/MEDIA]_VARIANT := caf-msm89**
 ```
 
 **Enabling QCOM Audio/Video Enhancements**
+
 Include the following in your `BoardConfig.mk`:
 
 ```
