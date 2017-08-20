@@ -5,5 +5,5 @@ Documentation for Omni, replacing the wiki
 
 ## Contents
 - [Code of Conduct](https://github.com/omnirom/omni_community/blob/master/Code_of_Conduct.md)
-- News
+- [Contributor License Agreement](https://github.com/omnirom/omni_community/blob/master/Contributor_License_Agreement.md)
 - [Porting your device to Omni](https://github.com/omnirom/Docs/blob/master/Porting_Omni_To_Your_Device.md)
